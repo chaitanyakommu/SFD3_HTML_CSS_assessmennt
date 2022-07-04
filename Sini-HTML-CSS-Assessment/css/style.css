@@ -1,0 +1,93 @@
+.grid-container {
+    display: grid;
+    height: auto;
+    align-content: center;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 10px;
+    background-color: #a52065;
+    padding: 10px;
+  }
+  
+  .grid-container > div {
+    background-color: rgba(247, 211, 9, 0.958); 
+
+    text-align: center;
+    padding: 20px 0;
+    font-size: 15px;
+    font-weight:bolder;
+    font-family: 'Courier New', Courier, monospace;
+  
+   
+  }
+  .taco {
+
+    background-color: rgba(247, 211, 9, 0.958);
+    grid-area: 2 / 1 / 4 /4 ;
+    background-image: url("../img/taco.jpg");
+    background-size:cover;
+    height: 300px;
+    border: 2px solid;
+    font-size: 16px;
+    
+    
+
+
+  }
+  .pr1{
+
+    grid-area: 2 / 4 / 3 /6 ;
+    
+    
+  }
+  .pr2{
+
+    grid-area: 3 / 4 / 4 /6 ;
+    
+
+  }
+  #price1,#price2{
+
+    
+    font-size:xx-large;
+  }
+
+  #items1,#items2 ,#items3,#items4{
+    background-color: aliceblue;
+    
+  }
+
+  .taco1{
+
+    grid-area: 5 / 1 / 8 /3 ;
+    background-image: url("../img/queso-taco.png");
+    background-size:cover;
+    height: 300px;
+    border: 2px solid;
+    font-size: 16px;
+    
+    
+
+  }
+  .taco2{
+
+    grid-area: 5 / 3 / 8 /6 ;
+    
+    
+
+  }
+  #ta1,#ta2,#learn{
+    background-color: aliceblue;
+   
+  }
+ 
+.footer{
+
+    grid-area: 8 / 1/ 9 /6 ;
+}
+#foot{
+    background-color:#a52065 ;  
+}
+.img1{
+
+    grid-column:1/2;
+}
