@@ -1,0 +1,95 @@
+.grid{
+    display:grid;
+    background-color:blueviolet ;
+    grid: auto auto auto auto auto/ auto auto auto auto auto;
+    border: 3px solid blueviolet;
+    gap:20px;
+    padding: 20px;
+}
+.grid> div{
+    background-color: rgb(255, 191, 0);
+    border: 1px solid rgb(255, 191, 0);
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+.item6 {
+    grid-column: 1 / span 3 ;
+    grid-row: 2 / span 14 ;
+    background: url("/images/taco.jpg");
+    background-position: 0px -400px;
+    background-size: cover;
+    height: 300px;
+    width: 1400px;
+    text-align: right;
+} 
+.item6 h4{
+    text-align: left;
+} 
+.item6 h6{
+    text-align: left;
+} 
+.highlightme { background-color:rgb(255, 191, 0); }
+
+.item7 {
+    grid-column: 4 / span 2 ;
+    grid-row: 2 / span 7 ;
+    width: 900px;
+    height: 130px;}  
+.large{
+    font-size: 40px;
+    padding: 0;
+    margin: 15px;}  
+.small{
+    font-size: 20px;
+    padding: 0;
+    margin: 0;;
+}
+.item8 {
+    grid-column: 4 / span 2 ;
+    grid-row:  9 / span 7 ;
+    width: 900px;
+    height: 130px;} 
+.item13 {
+    grid-column: 1 / span 5 ;
+    height: 300px;
+} 
+.grid2{
+    display:grid;
+    background-color:blueviolet ;
+    grid: auto auto/ auto auto auto auto;
+    border: 3px solid blueviolet;
+    gap:20px;
+    padding: 20px;
+}
+.grid2> div{
+    background-color: rgb(254, 253, 252);
+    border: 1px solid rgb(250, 249, 248);
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+.grid3{
+    display:grid;
+    background-color:blueviolet ;
+    grid: auto auto auto/ auto auto auto auto auto auto auto;
+    border: 3px solid blueviolet;
+    gap:20px;
+    padding: 20px;
+}
+.grid3> div{
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+.item14 {
+    width: 300px;
+    height: 130px;
+    object-fit:cover;    
+} 
+.instantgrams {
+    grid-column: 1 / span 7 ;
+    height: 10px;
+    width: 1400px;
+    margin: 20px 500px;
+} 
