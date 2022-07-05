@@ -1,0 +1,158 @@
+body {
+  background: linear-gradient(90deg, rgba(237, 7, 114, 1) 34%, rgba(109, 0, 255, 0.9738270308123249) 99%);
+  ;
+  margin: 30px;
+}
+
+h1 {
+  background-color: rgb(255, 204, 0);
+}
+
+h1, h2, h3, h4, h5, h6, p, a {
+  font-family: Poppins, sans-serif;
+}
+
+h4 {
+  margin-bottom: 5px;
+}
+
+p {
+  margin: 0;
+}
+
+hr {
+  background: radial-gradient(circle, rgba(237, 132, 7, 1) 52%, rgba(237, 7, 114, 0) 100%);
+  height: 5px;
+  width: 90%;
+  border: none;
+  margin-top: 25px;
+}
+
+.instagram img {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto;
+  padding: 10px;
+  float: left;
+  border: none;
+  margin: 0;
+  width: 200px;
+  height: 200px;
+}
+
+.navbar {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  column-gap: 10px;
+  text-align: center;
+  font-weight: bold;
+  margin: 25px auto;
+}
+
+.nav-links {
+  color: black;
+  background-color: rgb(255, 204, 0);
+  text-decoration: none;
+  padding: 10px;
+}
+
+.section1 {
+  display: grid;
+  grid-template-columns: auto 30%;
+  column-gap: 20px;
+  margin: auto;
+}
+
+.main-text1 {
+  background-color: rgb(255, 204, 0);
+  display: inline-block;
+  padding: 7px;
+  position: absolute;
+  top: 160px;
+  margin-left: 30px;
+}
+
+.main-text2 {
+  background-color: rgb(255, 204, 0);
+  display: inline-block;
+  padding: 7px;
+  position: absolute;
+  top: 235px;
+  margin-left: 30px;
+}
+
+.main-image {}
+
+.main-heading-section {
+  background-image: url("images/taco.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+
+.special-pricing1 {
+  text-align: center;
+  margin: auto;
+  padding: 30px;
+  background-color: rgb(255, 204, 0);
+}
+
+.special-pricing2 {
+  text-align: center;
+  margin: 20px auto 0 auto;
+  padding: 30px;
+  background-color: rgb(255, 204, 0);
+}
+
+.text-margin {
+  margin: 0;
+  padding: 0;
+}
+
+.featured {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  column-gap: 20px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.feature-column {
+  padding: 1.5rem;
+  background-color: #fff;
+}
+
+.feature-image {
+  width: 70px;
+}
+
+.featured-taco {
+  margin-top: 20px;
+  background-color: #fff;
+}
+
+.featured-taco-image {
+  width: 20%;
+  padding: 30px;
+  float: left;
+}
+
+.float-text {
+  padding: 70px;
+}
+
+.button {
+  background-color: rgb(255, 204, 0);
+  border: none;
+  color: grey;
+  padding: 8px;
+  border-radius: 3px;
+}
+
+.instagram {
+  margin-top: 15px;
+}
+
+
+#pricing2 {
+  margin-top: 20px;
+}
