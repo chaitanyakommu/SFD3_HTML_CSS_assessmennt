@@ -1,0 +1,165 @@
+body{
+       margin: 0%;
+       padding: 0px;
+       background-color:rgb(222, 135, 171);
+       font-size: 15px;
+}
+
+button{
+    background:rgb(222, 135, 171);
+    border: 0;
+    padding: 10px,20px;
+}
+img{
+    max-width: 100px;
+}
+.wrapper{
+    display: grid;
+    grid-gap: 20px;
+}
+
+.navbar{
+    background-color: orangered;
+    position: fixed;
+    top:0;
+    width: 100%;
+
+}
+.navbar li{
+    display: inline-block;
+    padding: 0px  60px;
+}
+.navbar a{
+    text-decoration: none;
+    .color:  black;
+    
+}
+a.blue{
+    color: blue;
+}
+
+.menu ul{
+    display: grid;
+    grid-gap: 10px;
+    padding: 0;
+   list-style: none;
+   width: 100px;
+  grid-template-columns: repeat(auto-fit, minmax(100px,1 fr));
+}
+.menu a{
+    color:brown;
+    display:inline-block;
+    text-decoration: solid;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif
+}
+
+.topbar {
+    display: grid;
+    grid-gap:20 px;
+    grid-template-areas:
+    "tacopic tacopic cat1"
+    "tacopic tacopic cat2"
+
+}
+        
+
+
+.tacopic{
+    grid-area: tacopic;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;   
+    min-height: 400px;
+    background: white url(./images/taco.jpg);
+    background-size: cover;
+    background-position: bottom-right;
+    align-items: start;
+    justify-content: center;
+    min-height: 400px;
+ 
+}
+.tacopic> *{
+    background: var(--yellow);
+    padding: 5px;
+}
+
+.cat {
+    background: orangered;
+    display:  grid;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+}
+
+.cat p {
+    margin: 0;
+}
+.cat1 {
+    grid-area: cat1;
+}
+.cat2 {
+    grid-area: cat2;
+}
+.price{
+    font-size: 60px;
+    font-weight: 300;
+}
+/*.features {
+    background-color: white;
+    position: fixed;
+    grid-auto-flow: row
+    width: 100;
+}*/
+.features {
+    display: inline-block
+    padding:  0px  60px
+    margin: 5rem auto;
+    width: min(90%, 75rem);
+    display: grid;
+    grid-auto-flow: column;
+    gap: 2 rem; }
+}
+  /*.grid-4-column {
+    margin: 5rem auto;
+    width: min(90%, 75rem);
+    display: grid;
+    grid-auto-flow: column;
+    gap: 2 rem; */
+  } 
+@media(max-width: 700px){
+    .columns {
+        grid-auto-flow: column;
+    }
+}
+  
+featuredtaco {
+    background-color: white;
+    margin-top: 20px;
+    padding:   50px,0;
+    display:   inline-flexbox;
+    text-align: center;
+    }
+    #featuredtaco{
+        height: 100px;
+        width: 100px;
+    }
+    @media (max-width: 700px){
+        .topbar{
+            grid-template-areas: 
+            "tacopic tacopic"
+            "cat1" "cat2"
+        }
+    }
+
+   @media (max-width: 500px){
+        .topbar{
+            grid-template-areas:
+             "tacopic"
+             "cta1"
+             "cta2"
+        }
+    }
+}
