@@ -1,0 +1,47 @@
+.grid {
+    display: grid;
+    border: 7px darkred solid;
+    width: 400 px;
+    height: 500 px;
+    grid-template-columns: 50% 25% 25%;
+}
+
+#header {
+    background-color: lightgreen;
+    border-radius: 5px;
+    border: 3px darkblue solid;
+    padding:40px;
+    font-size: 60px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#tagline {
+    background: lightskyblue;
+    border-radius: 5px;
+    border:3px darkblue solid;
+    font-size: 40px;
+    text-align: center;
+    font-style: italic;
+
+}
+
+#addressline {
+    background: lightcoral;
+    border-radius: 5px;
+    border:3px darkblue solid;
+    font-size: 40px;
+    text-align: center;
+}
+
+#image1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+}
