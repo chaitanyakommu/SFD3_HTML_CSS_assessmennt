@@ -1,0 +1,46 @@
+.logo{
+    text-align: center;
+    width: auto;
+    height: auto;
+    margin: 20px;
+    background: rgb(0, 204, 255) ;
+    padding: 20px;
+}
+.logo1{
+    text-align: center;
+    width: auto;
+    height: auto;
+    margin: 20px;
+    background: rgb(0, 191, 255) ;
+    padding: 20px;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.result{
+    text-align: center;
+    text-shadow: rgb(127, 148, 255);
+    width: auto;
+    height: auto;
+    margin: 20px;
+    background: rgb(0, 225, 255) ;
+    padding: 20px;
+}
+
+#error
+{
+    background-color:rgb(82, 153, 131);
+    color:red;
+    display: none;
+    margin:auto;
+    padding:10px;
+    
+       
+}
+

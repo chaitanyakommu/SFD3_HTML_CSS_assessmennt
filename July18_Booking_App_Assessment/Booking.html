@@ -1,0 +1,79 @@
+<html>
+    <head>
+        <title>Booking Information</title>
+        <script type="text/javascript" src="/booking.js"></script>
+        <link rel="stylesheet" href="/style.css"/>
+    </head>
+    <body class="logo">
+        <div class="logo1">
+            <img src = "./logo.png"/><br>
+            <h1>SV Aviation</h1><h3><I>Ready for take off</I></h3>
+        </div>
+        <div id="error" class="error">
+            <span id="errMsg"></span>
+        </div>
+        <form action="/Final.html" method="get" target="_self" onsubmit="return validate()">
+        <h4>Departure Date & Time</h4>
+        Departure Date<input type="datetime-local" id="DepartureDate">
+        <h4>Return Date & Time</h4>
+        Return Date<input type="datetime-local" id="ReturnDate"><br><br><br>
+        Departure From  
+       <select id="Depature">
+            <option value="">Select...</option>
+            <option value="VIC">Vicroria</option>
+            <option value="NSW">New South Wale</option>
+            <option value="WA">Western Australia</option>
+            <option value="SA">South Australia</option>
+            <option value="TAS">Tasmania</option>
+       </select>
+       City <input type="text" id="city"> <br><br>
+       <br>
+
+       Destination 
+       <select id="Arrival">
+            <option value="">Select...</option>
+            <option value="VIC">Vicroria</option>
+            <option value="NSW">New South Wale</option>
+            <option value="WA">Western Australia</option>
+            <option value="SA">South Australia</option>
+            <option value="TAS">Tasmania</option>
+       </select>
+       City <input type="text" id="city"> <br><br>
+        <br>
+        Airline 
+        <select>
+            <option value="">Select...</option>
+            <option value="AUS">Qantas</option>
+            <option value="AUS">Virgin</option>
+            <option value="AUS">Jetstar</option>
+            <option value="AUS">Rex</option>
+        </select>   
+      Fare 
+            <input type="radio" id="Oneway" name="Trip" value="One Way" checked>One Way
+            <input type="radio" id="Round" name="Trip" value="Round-Trip">Round-Trip
+        <br><br>
+            No. Of Passengers<input type="text" id="No. Of Passengers  "><br><br>
+                    Selection of Food 
+                    <select>
+                        <option value="">Select..</option>
+                        <option value="Vegetarian">Veg</option>
+                        <option value="Non-Vegetarian">Non-Veg</option>
+                    </select><br><br>
+        <div class="Payment-Details">
+            Travel Class 
+                    <select id="Payment">
+                        <option value="">Select..</option>
+                        <option value="Economy">Eco</option>
+                        <option value="Business">Busin</option>
+                    </select><br><br>
+                    Payment Details<br><br>
+                        Full Name <input type="text" id="Full Name">
+                        Mobile <input type="text" id="Mobile">
+                        Email  <input type="text" id="Email">
+                    </select>
+                    <br><br>      
+                    <input type="submit" value="Submit">   
+        </div>
+        </form>
+    </body>
+</html>
