@@ -1,0 +1,334 @@
+
+   #backcolor{
+     height: 1000px;
+     width: 1010px;
+    background: linear-gradient(to right, #f13d6c, #7b46cd);
+   }
+.grid-container{
+    
+    border : 0px rgb(170, 15, 118) solid;
+    height: 500px;
+    width: 1000px;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: auto auto auto auto auto;
+    grid-gap:1px;
+    
+}
+
+.grid-tacos{
+    background-color: yellow;
+    grid-row: 1;
+    grid-column: auto;
+    font-weight: bold;
+    height: 30px;
+    font-size: 12px;
+    margin-top: 4px;
+    margin-left: 5px;
+    text-align: center;
+    padding-top: 8px;
+    
+    
+        
+}
+.grid-beers{
+    background-color: yellow;
+    grid-row: 1;
+    grid-column: auto;
+    font-weight: bold;
+    font-size: 12px;
+    height: 30px;
+    margin-top: 4px;
+    text-align: center;
+    padding-top: 8px;
+
+}
+.grid-wines{
+    background-color: yellow;
+    grid-row: 1;
+    grid-column: auto;
+    font-weight: bold;
+    font-size: 12px;
+    height: 30px;
+    margin-top: 4px;
+    text-align: center;
+    padding-top: 8px;
+}
+.grid-desserts{
+    background-color: yellow;
+    grid-row: 1;
+    grid-column: auto;
+    font-weight: bold;
+    height: 30px;
+    font-size: 12px;
+    margin-top: 4px;
+    text-align: center;
+    padding-top: 8px;
+}
+.grid-reservations{
+    background-color: yellow;
+    grid-row: 1;
+    grid-column: auto;
+    font-weight:bold;
+    height: 30px;
+    font-size: 12px;
+    margin-top: 4px;
+    margin-right:5px;
+    text-align: center;
+    padding-top: 8px;
+}
+
+img{
+    width: 120px;
+    height: 80px;
+    
+    
+}
+
+.grid-terrytaco{
+  
+  grid-row: 2 / span 2;
+  grid-column: 1 / span 4;
+  border: 1px solid black;
+  background-image: url('taco.jpg');
+  text-align: center;
+  font-size: small;
+  margin: 5px;
+    
+}
+
+.grid-terrytaco>h4{
+    padding-top: 60px;
+    padding-left:10px;
+    text-align: left;
+    color:aliceblue;
+
+}
+
+.grid-terrytaco>h2{
+    padding-top: 50px;
+    padding-left: 10px;
+    text-align: left;
+    color:aliceblue;
+}
+
+.grid-cost1{
+    background-color: yellow;
+    grid-row: 2  ;
+    grid-column: 5;
+    text-align: left;
+    font-size: 20px;
+    margin: 5px;
+    padding-top: 20px;
+    padding-left: 10px;;
+
+}
+
+.grid-cost2{
+    background-color: yellow;
+    grid-row: 3;
+    grid-column: 5;
+    text-align: left;
+    font-size: 20px;
+    margin: 5px;
+    padding-top: 20px;
+    padding-left: 10px;
+
+}
+
+.grid-logocontainer{
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto auto auto;
+    width: 1000px;
+    
+    
+}
+.grid-ltacos{
+    background-color: aliceblue;
+    grid-row: 1;
+    grid-column: 1;
+    height: 100px;
+    width: 240px;
+    margin: 5px;
+    text-align: center;
+    
+
+}
+.grid-lbeer{
+    background-color: aliceblue;
+    grid-row: 1;
+    grid-column: 2;
+    height: 100px;
+    width:240px;
+    margin: 5px;
+    text-align: center;
+    
+}
+
+.grid-lwine{
+    background-color: aliceblue;
+    grid-row: 1;
+    grid-column: 3;
+    text-align: center;
+    height: 100px;
+    width: 240px;
+    margin: 5px;
+    
+}
+.grid-lmusic{
+    background-color: aliceblue;
+    grid-row: 1;
+    grid-column: 4 ;
+    width: 240px;
+    height: 100px;
+    margin: 2px;
+    text-align: center;
+    
+}
+.grid-lmusic > img{
+    height :20px;
+    width: 20px;
+    padding-top: 2px;
+    padding-left: 100px;
+
+ }
+ .grid-lwine > img{
+    height :20px;
+    width: 20px;
+    padding-top: 2px;
+    padding-left: 100px;
+
+ }
+ .grid-ltacos > img{
+    height :20px;
+    width: 20px;
+    padding-top: 2px;
+    padding-left: 100px;
+
+ }
+ .grid-lbeer > img{
+    height :20px;
+    width: 20px;
+    padding-top: 2px;
+    padding-left: 100px;
+
+ }
+     
+
+
+.grid-featuredtaco{
+    background-image: url("queso-taco.png");
+    grid-row: 2;
+    grid-column: 1;
+    margin-left: 5px;
+    height: 160px;
+    width : 100%;
+    background-color: aliceblue;
+    margin-bottom: 5px;
+
+}
+.grid-tacotext{
+    background-color: aliceblue;
+    grid-row: 2;
+    grid-column: 2/ span 4;
+    height: 160px;
+    margin-right:5px;
+}
+.grid-tacotext>h4{
+    
+    text-align: left;
+    padding-left: 30px;
+}
+
+.grid-tacotext>p{
+    text-align: left;
+    font-size: small;
+    padding-left: 30px;
+
+}
+
+#imp{
+    font-style: normal red;
+    background-color: yellow;
+}
+.grid-imagecontainer{
+    border : 0px rgb(201, 71, 131) solid;
+    height: 200px;
+    width: 1000px;
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    grid-gap:2px;
+    
+}
+.grid-img1{
+    grid-row: 1;
+    grid-column: 1;
+    
+    
+}
+.grid-img2{
+    grid-row: 1;
+    grid-column: 2;
+    
+    
+}
+.grid-img3{
+    grid-row: 1;
+    grid-column: 3;
+
+
+}
+.grid-img4{
+    grid-row: 1;
+    grid-column: 4;
+    
+}
+.grid-img5{
+    grid-row: 1;
+    grid-column: 5;
+        
+}
+.grid-img6{
+    grid-row: 1;
+    grid-column: 6;
+       
+}
+.grid-img7{
+    grid-row: 1;
+    grid-column: 7;
+    
+}
+.grid-img8{
+    grid-row: 2;
+    grid-column: 1;
+    
+
+}
+.grid-img9{
+    grid-row: 2;
+    grid-column: 2;
+    
+    
+}
+.grid-img10{
+    grid-row: 2;
+    grid-column: 3;
+
+    
+}
+h2,h3{
+    text-align: left;
+    padding-left: 100px;
+}
+h5{
+    text-align:left;
+    padding-left: 100px;
+}
+
+p{
+    font-size: 8px;
+    text-align: center;
+    
+}
