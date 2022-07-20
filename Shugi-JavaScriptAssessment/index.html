@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css" />
+    <script defer type="text/javascript" src="index.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div >
+            <span class="heading1"  >Book Your Dream Travels</span>
+        </div>
+        <img width= 8% src="images/world.png" alt="">
+        
+        
+    
+    <nav>
+        <ul>
+            <li class="active"><a href="#"><h1>Flights</h1></a></li>
+            <li class="active"><a href="#"><h1>Stays</h1></a></li>
+            <li class="active"><a href="#"><h1>Cars</h1></a></li>
+            <li class="active"><a href="#"><h1>Things To Do</h1></a></li>
+            <li class="active"><a href="#"><h1>Popular Destinations</h1></a></li>
+          </ul>   
+    </nav>
+    </header>
+  
+
+<main>
+
+    <form id="form" action="/">
+               
+            
+        <h1 class="heading2">Booking Form</h1>
+           
+        <div class="passnum">
+        <div class="input-control">
+            
+         Number Of Passengers <input type="number" id="numberofpassengers" name="quantity" min="1" >
+        </div> 
+    </div>
+   
+         <div class="tripdetails" id="tripdetails">
+         <input type="radio" name="triptype" id="triptype1" value="oneway"  />One Way
+        <input type="radio" name="triptype" id="triptype2" value="roundtrip"  />Round Trip 
+        <div class="error"></div>   
+        </div>
+
+        <div class="input-control">
+            From:   <input type="text" id="departure" name="departure" /> 
+            <div class="error"></div>
+         </div>
+
+            <div class="input-control">
+            To:     <input type="text" id="arriving" name="arriving" />
+            <div class="error"></div>
+            </div>
+            
+
+            <div class="input-control">
+            Depart On:        <input type="date" name="departDate" id="departDate"/>
+            <div class="error"></div>    
+        </div>
+            <div class="input-control">
+            Return On:        <input type="date" name="arriveDate" id="arriveDate" />
+            <div class="error"></div>
+            </div>
+
+            <h1 class = "heading3">Passenger Details</h1>
+            <div class="pass1">Passenger 1:</div>
+            <div class="input-control">
+            
+             Name<input type="text" id="name1" /> 
+            <div class="error"></div>
+            </div>
+            <div class="input-control">Age        <input type="number" id="age" name="age1" min="1" ></div>
+            <div class="gender2">
+            Gender    <input type="radio" name="gender1" />Male 
+                       <input type="radio" name="gender1" />Female
+            </div>
+          
+           <div class="pass1">Passenger 2:</div>
+            <div class="input-control">
+             Name<input type="text" id="name2" />
+            <div class="error"></div> 
+            </div>
+
+            <div class="input-control">Age        <input type="number" id="age2" name="age2" min="1" ></div>
+            <div class="gender2">
+                <label for="gender2">Gender:</label>
+                    <input type="radio" id="gender2" name="gender2"/>Male 
+            <input type="radio" name="gender2" />Female
+        </div>   
+            <h1 class = "heading4">Payment Details</h1>
+            <div class="input-control">
+            Full Name <input type="text" id="namefn"/> 
+            <div class="error"></div>
+        </div>
+      
+        <div class="input-control">
+   
+            <label for="address">Address:</label>
+                <textarea id="address" name="address" rows="1" cols="1">
+          </textarea>
+        </div>
+          <div class="input-control">
+            Mobile Number <input type="number" name="mobile" id="mobile"/>
+            <div class="error"></div>
+          </div>
+
+          <div class="input-control">
+
+          
+                      Email <input type="text" name="myemail" id="myemail" /> 
+          <div class="error"></div>
+           </div>
+           <div></div>
+           <div class="submit">
+           <button type="submit">Submit</button>
+        </div>
+              
+        </form>
+        <footer>
+       
+
+        <h2><span>Contact : 02 8888 8888</span><img width= 6% src="images/world.png" alt=""><span> E-Mail: xxxx@xxxxxx.com.au </span>  
+                </h2>
+    </footer>
+
+
+</main>
+</body>
