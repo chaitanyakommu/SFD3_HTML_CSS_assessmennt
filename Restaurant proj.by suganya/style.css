@@ -1,0 +1,110 @@
+.types{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    padding: 8px;  
+    background-color: #e6f512;
+    border: 1px solid black;
+    gap: 5px;
+  }
+  .Type1{
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    background-color: #f80099ec;
+    margin-top: 35px;
+  }
+.row1-container{
+display: grid;
+grid: auto auto/ auto auto auto auto auto;
+background-color: aqua;
+border: 1px solid orange;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+.row1-item1{
+    grid-column: 1/2;
+    grid-row: 1/4;
+    border: 1px solid red;
+
+}
+.row1-item2{
+    grid-column: 4/6;
+    grid-row: 1/2;
+    border: 1px solid yellow;
+    background-color: blue;
+    padding: 10px;
+    margin:10px;
+    text-align: center;
+}
+.row1-item3{  grid-column: 4/6;
+    grid-row: 2/2;
+    border: 1px solid yellow;
+    background-color: blue;
+    padding: 10px;
+    margin:10px;
+    text-align: center;
+}
+.row2-container{ display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: beige;
+    border: 1px solid chocolate;
+}
+.row2-item1{
+    border: 1px solid cornflowerblue;
+    padding: 10px;
+    text-align: center;
+    background-color: azure;
+    margin: 10px;
+}
+.row2-item2{
+    border: 1px solid cornflowerblue;
+    padding: 10px;
+    text-align: center;
+    background-color: azure;
+    margin: 10px;
+}
+.row2-item3{
+    border: 1px solid cornflowerblue;
+    padding: 10px;
+    text-align: center;
+    background-color: azure;
+    margin: 10px;
+}
+.row2-item4{
+    border: 1px solid cornflowerblue;
+    padding: 10px;
+    text-align: center;
+    background-color: azure;
+    margin: 10px;
+}
+
+#instant{
+     margin-left: 500px;
+}
+
+
+
+
+
+h1{
+    font-size: medium;
+    }
+
+    .menu-container {
+     display: grid;
+     grid: auto auto auto auto auto;
+     gap:15px;
+     /*padding: 20px;*/
+
+    }
+.menu-container> div{
+    background-color: yellow;
+    border: 1px solid rgba(0, 0, 0, 0, 8);
+    padding: 20px;
+    font-size: 20px;
+    text-align: centre;
+    
+     
+     
+}
