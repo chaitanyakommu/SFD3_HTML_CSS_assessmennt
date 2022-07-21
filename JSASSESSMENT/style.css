@@ -1,0 +1,10 @@
+body {
+    background-image: url("C:\Users\Johnson\Documents\JSASSESSMENT\artturi-jalli-WUYFbcqrtiw-unsplash.jpgpaper.gif");
+    background-color: #cccccc;
+   }
+
+   [type="submit"] {
+    clear: left;
+    margin: 20px 0 0 230px;
+    font-size:18px
+   }
