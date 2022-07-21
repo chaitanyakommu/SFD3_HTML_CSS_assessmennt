@@ -1,0 +1,176 @@
+
+
+
+
+
+
+.gridd {
+
+
+
+
+
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto auto auto auto;
+    background-color: rgb(196, 71, 129);
+    border: 3px solid rgb(196, 71, 129);
+    gap:15px;
+    padding: 20px;
+         }
+.grid1{display: grid;
+            grid-template-columns: auto auto auto auto;
+            background-color: rgb(196, 71, 129);
+            border: 3px solid rgb(196, 71, 129);
+            gap:15px;
+            padding: 20px;
+            
+                 }
+ .grid1a{display: grid;
+                    grid-template-columns: auto auto auto auto;
+                    background-color: rgb(196, 71, 129);
+                    border: 3px solid rgb(196, 71, 129);
+                    gap:0px;
+                    padding: 20px;
+                    margin: 0px 0px 0px 0px;
+                    
+                         }
+.grid2{display: grid;
+                    grid-template-columns: auto auto auto auto auto auto;
+                    background-color: rgb(196, 71, 129);
+                    border: 0px solid rgb(196, 71, 129);
+                    gap:5px;
+                    padding: 20px;
+                    margin: 0px 0px 0px 0px;
+                    
+                         }
+  .item{background-color: rgba(231, 235, 21, 0.8);
+         border: 0px solid rgba(229, 233, 11, 0.8);
+         padding: 20px;
+         font-size: 30px;
+         text-align: center;
+        }   
+        .grid> div{background-color: rgba(212, 194, 30, 0.8);
+            border: 0px solid rgba(0, 0, 0, 0.8);
+            padding: 20px;
+            font-size: 30px;
+            text-align: center;
+           
+            }  
+            .grid1> div{background-color: rgba(255, 255, 255, 0.8);
+                border: 0px solid rgba(0, 0, 0, 0.8);
+                padding: 20px;
+                font-size: 30px;
+                text-align: center;
+                                }  
+             .grid1a> div{background-color: rgba(255, 255, 255, 0.8);
+                                    border: 0px solid rgba(0, 0, 0, 0.8);
+                                    padding: 20px;
+                                    font-size: 30px;
+                                    text-align: left;
+                                                    }  
+            .grid2> div{background-color:  rgb(196, 71, 129);
+                    border: 0px solid rgba(0, 0, 0, 0.8);
+                    padding: 5px;
+                    font-size: 10px;
+                    text-align: center;
+                    }      
+            .item1 { 
+                grid-column: 1/ 4;
+                grid-row:2/ 4;
+                background-image: url("taco.jpg");
+                background-size: 100% 100%;    
+                background-repeat: no-repeat; 
+                
+            }  
+            .item2 { 
+                grid-column: 4/ 6;
+                grid-row:2/ span 1;    
+            }  
+            .item3 { 
+                grid-column: 4/ 6;
+                grid-row:3/ span 1;    
+            }  
+            .grid1 { 
+                grid-column: 1/ 6;
+                grid-row:4/ span 1;   
+                
+            }  
+            .grid1a { 
+                grid-column: 1/ 6;
+                grid-row:5/ span 1;   
+                
+            }  
+            .item4 { 
+                grid-column: 1/ 2;
+                grid-row:6/ span 1;  
+                text-align: center;
+                
+                
+            }
+            .item4a { 
+                grid-column: 2/ 6;
+                grid-row:6/ span 1; 
+                text-align: left;
+                line-height: 5px;
+                font-weight: bold;
+                
+               
+            }
+
+
+            .item5 { 
+                    grid-column: 1/ 6;
+                    grid-row:7/ span 1;  
+                background-color: rgb(196, 71, 129);
+
+
+             }    
+
+                    .grid2 { 
+                        grid-column: 1/ 6;
+                        grid-row:8/ span 1
+                       
+                    } 
+                    .menu1{
+                        text-transform: uppercase;
+                        text-decoration-line: none;
+                        font-weight: 1000;
+                    } 
+                    .taco1{
+                        opacity: 1;
+                            background-color: #aa9a05;
+                            color: #FFF;
+                            font-size: 20px;
+                            font-weight: 300;
+                            line-height: 10px;
+                            width: 40%;
+                            padding: 20px 0px;
+                            margin: 70px 10px 0px 10px;
+                            border: 0px solid rgba(0, 0, 0, 0.8);
+                            }
+                            .taco2{
+                                        opacity: 1;
+                                            background-color: #aa9a05;
+                                            color: #FFF;
+                                            font-size: 20px;
+                                            font-weight: 300;
+                                            line-height: 10px;
+                                            width: 40%;
+                                            padding: 20px 0px;
+                                            margin: 5px 0px 0px 10px;
+                                            border: 0px solid rgba(0, 0, 0, 0.8);
+                                            }
+
+                           /* .learnmore{
+                               /* opacity: 1;
+                                    background-color: #aa9a05;
+                                    color: #FFF;
+                                    font-size: 20px;
+                                    font-weight: 300;
+                                    line-height: 10px;
+                                    width: 15%;
+                                    padding: 20px 0px;
+                                    text-align: center;
+                                    border: 0px solid rgba(0, 0, 0, 0.8);*/
+                                    }*/
