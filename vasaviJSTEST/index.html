@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+   <head> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!--<img src="./pexels-pixabay-47044.jpg" alt="flight">-->
+   </head>
+    <title> Welcome to Flight Booking Center</title>
+    <style>
+        body {
+      
+                     background-color:hsla(89, 63%, 32%, 0.6);
+                       /*background-image: url("pexels-pixabay-47044.jpg");*/
+                       background-image: conic-gradient(red, yellow, green);
+        }
+        </style>
+
+   
+
+   <body>
+   
+    <h1 style="text-align: center;">Welcome to Flight Booking Center</h1>
+		<form name="RegForm" onsubmit="return BookingFun()" method="post"><br> <br>
+     
+     <div class="booking-form-box">
+        <div class="radio-btn">
+            <input type="radio" class ="btn" name="check" checked="checked"><span>Roundtrip</span>
+            <input type="radio" class ="btn" name="check"><span>One Way</span>
+            <input type="radio" class ="btn" name="check"><span>Multi Transit</span>
+        
+        </div><br>
+
+        </div><br>
+
+        <div class="booking-form">
+            <form>
+            <label> Flying From </label>
+            <input type="text" class="formInput" placeholder="City or Airport"><br><br>
+            <label> Flying To </label>
+            <input type="text" class="form-control" placeholder="City or Airport">
+            </div><br>
+            
+            <div class="input-grp">
+                <label>Departing</label>
+                <input type="date" class="form-control select date">
+             </div><br>
+             <div class="input-grp">
+                <label>Returing</label>
+                <input type="date" class="form-control select date">
+             </div><br>
+            
+             <div class="input-grp">
+                <label>Adults</label>    
+                <input type="number" class="form-control " value="1">
+             </div><br>
+            
+             <div class="input-grp">
+                <label>Children</label>    
+                <input type="number" class="form-control " value="0">
+             </div><br>
+             <div class="input-grp">
+                <label>Travel Class</label> 
+                <select class="custom-select">
+                    <option value="1"> Economy Class</option>
+                    <option value="2"> Business Class</option>
+            
+                </select>   <br><br>
+                <div class="input-grp">
+                    <label>Full Name</label>
+                    <input type="text" placeholder="Enter your name" id="contact-name" onkeyup="validateName()">
+                    <span  id="name-error"></span>
+                  </div><br><br>
+
+                  <div class="input-grp">
+                    <label>Phone No.</label>
+                    <input type="tel" placeholder="123 456 7890" id="contact-phone" onkeyup="validatePhone()">
+                    <span  id="phone-error"></span>
+                  </div><br>
+            
+                  <div class="input-grp">
+                    <label>Email Id</label>
+                    <input type="email" placeholder="Enter Email" id="contact-email" onkeyup="validateEmail()">
+                    <span  id="email-error"></span>
+                  </div> <br>
+
+                  <button onclick="return validateForm()">Submit</button>
+                   <span  id="submit-error"></span>
+                
+                </form>
+               <!-- <div class="input-grp">
+                    <button type="button" class="btn btn-primary flight">Show Flights</button>
+                </div> <br>
+                
+                
+     <form name="myform" onsubmit="return Validpassword()" action="newHTML.html" method="post">
+
+        Password: <input type="password" name="pass1"> <br><br>
+        Confirm Password:<input type="password"  name="cpass1"><br><br>
+                          <input type="submit" value="Submit">
+        
+     </form> -->
+
+    <script src="script.js">
+        
+    </script>
+    
+   </body>
+
+</html>
